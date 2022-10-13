@@ -17,16 +17,16 @@ public class Conta {
 		this.tipo = tipo;
 	}
 
+	public double getSaldo() {
+		return saldo;
+	}
+
 	public String getTitular() {
 		return titular;
 	}
 
 	public void setTitular(String titular) {
 		this.titular = titular;
-	}
-
-	public double getSaldo() {
-		return saldo;
 	}
 
 	public int getTipo() {
